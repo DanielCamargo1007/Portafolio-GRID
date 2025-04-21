@@ -212,3 +212,40 @@ nav ul li a {
     display: block;
   }
 }
+
+.modal {
+  display: none; /* Oculto por defecto */
+  position: fixed; /* Se mantiene en su lugar incluso al hacer scroll */
+  z-index: 1; /* Para que esté por encima de otros elementos */
+  left: 0;
+  top: 0;
+  width: 100%; /* Ancho completo */
+  height: 100%; /* Alto completo */
+  overflow: auto; /* Habilitar scroll si el contenido es muy largo */
+  background-color: rgba(0,0,0,0.4); /* Fondo oscuro semitransparente */
+}
+
+.modal-contenido {
+  background-color: #fefefe;
+  margin: 15% auto; /* Centrar verticalmente y tener algo de espacio arriba */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Ancho de la ventana modal */
+  border-radius: 8px;
+  position: relative;
+}
+
+.cerrar-modal {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cerrar-modal:hover,
+.cerrar-modal:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
