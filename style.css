@@ -2,21 +2,21 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: #F8F9FA;
+    color: black;
   }
   
   /* Encabezado */
   header {
-    background-color: #1f1f1f;
-    color: white;
+    background-color: #1e3a8a;
+    color: #7f8c94;
     padding: 1rem;
     text-align: center;
   }
   
   nav a {
     margin: 0 10px;
-    color: #fff;
+    color: #7f8c94;
     text-decoration: none;
     font-weight: bold;
   }
@@ -29,7 +29,7 @@ body {
   section {
     padding: 2rem;
     margin: 1rem;
-    background: white;
+    background: #d4a017;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
@@ -39,7 +39,7 @@ body {
     text-align: center;
     padding: 1rem;
     background-color: #222;
-    color: white;
+    color: #7F8C94;
   }
 
   .galeria {
