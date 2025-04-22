@@ -345,3 +345,47 @@ nav ul li a {
     opacity: 1;
   }
 }
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+  margin-right: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  animation: fadeLogo 1s ease;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    height: 60px;
+  }
+}
+
+@keyframes fadeLogo {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Opcional: reduce el tamaño del h1 si queda muy grande */
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
