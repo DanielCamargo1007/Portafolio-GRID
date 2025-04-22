@@ -36,3 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+function mostrarPDF(ruta) {
+    document.getElementById('visor-pdf').src = ruta;
+  }

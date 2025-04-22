@@ -389,3 +389,40 @@ header h1 {
   font-size: 24px;
   margin: 0;
 }
+
+.btn-descargar {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #1e90ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-descargar:hover {
+  background-color: #006edc;
+}
+
+.pdf-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.pdf-list li {
+  background-color: #1e90ff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pdf-list li:hover {
+  background-color: #006edc;
+}

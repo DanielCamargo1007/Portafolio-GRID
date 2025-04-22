@@ -95,7 +95,7 @@
   <div id="modal-proyecto2" class="modal">
     <div class="modal-contenido">
       <span class="cerrar-modal">&times;</span>
-      <h3>Vivienda Familiar Estrato 2</h3>
+      <h3>Vivienda Familiar</h3>
       <p>Haz clic en el botón para visualizar el modelo interactivo en una nueva pestaña:</p>
   
       <div class="icono-modelo">
@@ -112,6 +112,16 @@
           <span class="cerrar-modal">&times;</span>
           <h3>Modelo del Proyecto 3</h3>
           <p>Contenido detallado del proyecto 3.</p>
+          <!-- Lista de PDFs -->
+    <ul class="pdf-list">
+      <li onclick="mostrarPDF('docs/BDB - CAJERO ESPERANZA BOSA.pdf')">Planimetría BDB - Esperanza Bosa</li>
+      <li onclick="mostrarPDF('docs/Habitación Chicala.pdf')">Planimetría Hidrosanitaria</li>
+      <li onclick="mostrarPDF('docs/plano3.pdf')">Planimetría Estructural</li>
+    </ul>
+
+    <!-- Área de visualización -->
+    <iframe id="visor-pdf" src="docs/plano1.pdf" width="100%" height="600px"
+      style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
       </div>
   </div>
       <section id="contacto">
