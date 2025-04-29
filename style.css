@@ -426,3 +426,17 @@ header h1 {
 .pdf-list li:hover {
   background-color: #006edc;
 }
+
+footer {
+  background-color: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+  border-top: 3px solid #daa520; /* dorado */
+}
+
+footer p {
+  margin: 0;
+  line-height: 1.6;
+}
